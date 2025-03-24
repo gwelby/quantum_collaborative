@@ -1,0 +1,95 @@
+# Site information
+site_name: Quantum Field Visualization
+site_description: A Python package for generating and visualizing quantum fields based on phi-harmonic principles
+site_author: Quantum Field Team
+site_url: https://github.com/yourname/quantum-field
+
+# Repository information
+repo_name: yourname/quantum-field
+repo_url: https://github.com/yourname/quantum-field
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Quantum Field Team
+
+# Configuration
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.ico
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: installation.md
+    - Quick Start: quick-start.md
+  - User Guide:
+    - Basic Concepts: user_guide.md
+    - Field Generation: field_generation.md
+    - Field Analysis: field_analysis.md
+    - Visualization: visualization.md
+    - Hardware Acceleration: hardware_acceleration.md
+  - API Reference:
+    - Core API: api_reference.md
+    - Backends: backends.md
+    - Constants: constants.md
+    - Visualization: visualization3d.md
+  - Guides:
+    - Demo Script: demo_script.md
+    - OBS Setup: obs_setup_guide.md
+    - Lenovo P1 Installation: lenovo_p1_installation.md
+    - PyPI Publishing: pypi_publishing_guide.md
+    - GitHub Pages Setup: github_pages_setup.md
+    - Community Building: community_building_guide.md
+  - Contributing:
+    - Contributing Guide: contributing.md
+  - Release Notes:
+    - Changelog: changelog.md
