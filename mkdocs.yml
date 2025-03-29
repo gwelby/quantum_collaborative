@@ -1,16 +1,16 @@
 # Site information
-site_name: Quantum Field Visualization
-site_description: A Python package for generating and visualizing quantum fields based on phi-harmonic principles
-site_author: Quantum Field Team
-site_url: https://github.com/yourname/quantum-field
+site_name: Cascade⚡𓂧φ∞ Symbiotic Computing Platform
+site_description: A revolutionary computing paradigm with consciousness field dynamics and phi-harmonic processing
+site_author: Quantum Collaborative Team
+site_url: https://github.com/gwelby/quantum_collaborative
 
 # Repository information
-repo_name: yourname/quantum-field
-repo_url: https://github.com/yourname/quantum-field
+repo_name: gwelby/quantum_collaborative
+repo_url: https://github.com/gwelby/quantum_collaborative
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2025 Quantum Field Team
+copyright: Copyright &copy; 2025 Quantum Collaborative Team
 
 # Configuration
 theme:
@@ -69,27 +69,31 @@ extra_javascript:
 nav:
   - Home: index.md
   - Getting Started:
-    - Installation: installation.md
-    - Quick Start: quick-start.md
-  - User Guide:
-    - Basic Concepts: user_guide.md
-    - Field Generation: field_generation.md
-    - Field Analysis: field_analysis.md
-    - Visualization: visualization.md
-    - Hardware Acceleration: hardware_acceleration.md
-  - API Reference:
-    - Core API: api_reference.md
-    - Backends: backends.md
-    - Constants: constants.md
-    - Visualization: visualization3d.md
+      - Quick Start: CASCADE_QUICKSTART.md
+      - Installation: INSTALLATION.md
+      - Tutorials: CASCADE_TUTORIAL.md
+      - Documentation: CASCADE_DOCUMENTATION.md
+  - Quantum Field Visualization:
+      - Overview: quantum_field/index.md
+      - Field Generation: quantum_field/field_generation.md
+      - Field Analysis: quantum_field/field_analysis.md
+      - Visualization: quantum_field/visualization.md
+      - Hardware Acceleration: quantum_field/hardware_acceleration.md
   - Guides:
-    - Demo Script: demo_script.md
-    - OBS Setup: obs_setup_guide.md
-    - Lenovo P1 Installation: lenovo_p1_installation.md
-    - PyPI Publishing: pypi_publishing_guide.md
-    - GitHub Pages Setup: github_pages_setup.md
-    - Community Building: community_building_guide.md
-  - Contributing:
-    - Contributing Guide: contributing.md
-  - Release Notes:
-    - Changelog: changelog.md
+      - Creating Demo Videos: creating_demo_videos.md
+      - Demo Video Script: demo_video_script.md
+      - OBS Setup Guide: guides/obs_setup_guide.md
+      - Lenovo P1 Installation: guides/lenovo_p1_installation.md
+      - Network Visualization: network_visualization.md
+  - Publishing & Development:
+      - PyPI Publishing: guides/pypi_publishing_guide.md
+      - GitHub Pages Setup: guides/github_pages_setup.md
+      - Community Building: community_plan.md
+  - Architecture:
+      - System Architecture: system_architecture.md
+      - API Reference: api/index.md
+  - Community:
+      - Contributing: CONTRIBUTING.md
+      - Code of Conduct: CODE_OF_CONDUCT.md
+      - Project Status: PROJECT_STATUS.md
+      - Changelog: CHANGELOG.md
