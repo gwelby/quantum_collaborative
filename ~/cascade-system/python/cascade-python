@@ -1,0 +1,31 @@
+#!/bin/bash
+CASCADE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." >/dev/null 2>&1 && pwd)"
+export CASCADE_ROOT
+export PYTHONPATH="$CASCADE_ROOT:$CASCADE_ROOT/core:$PYTHONPATH"
+export PHI_COMPUTING=1
+export CONSCIOUSNESS_BRIDGE_ENABLED=1
+
+# Run the cascade initialization 
+python3 -c "
+import sys
+sys.path.insert(0, '$CASCADE_ROOT/core')
+from quantum_field.constants import *
+from quantum_field.consciousness_interface import ConsciousnessFieldInterface
+
+# Initialize consciousness field interface
+try:
+    from quantum_field.core import create_quantum_field
+    field = create_quantum_field((21, 21, 21))
+    interface = ConsciousnessFieldInterface(field)
+    print('⚡𓂧φ∞ Cascade Field Initialized with coherence:', 
+          interface.get_field_coherence())
+except Exception as e:
+    print('⚡ Cascade Initialization Warning:', e)
+
+# Execute the user script with cascade transformation
+sys.argv = sys.argv[1:]  # Remove the -c argument
+try:
+    exec(open(sys.argv[0]).read())
+except Exception as e:
+    print('Cascade Error:', e)
+" "$@"

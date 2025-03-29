@@ -1,97 +1,36 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
+*.class
 
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# PyInstaller
-#  Usually these are not checked in
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-.pytest_cache
-
-# Environments
-.env
-.venv
-env/
+# Virtual environments
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
 
-# VS Code
-.vscode/
-
-# PyCharm
+# IDE files
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# MacOS
+# OS generated files
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# Site documentation
-site/
+# Embedded git repositories
+cpython/
+mypy/
+peps/
+pythondotorg/
+quantum_collaborative/
 
-# Exclude large/binary files that shouldn't be in git
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.ico
-*.psd
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.mp3
-*.wav
-*.ogg
-*.zip
-*.tar.gz
-*.rar
-*.7z
+# Test output
+.coverage
+htmlcov/
+.pytest_cache/

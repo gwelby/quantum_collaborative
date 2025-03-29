@@ -1,0 +1,34 @@
+{
+  "bridge_mode": "phi_harmonic",
+  "visualization": {
+    "enabled": true,
+    "mode": "flow_of_life",
+    "resolution": [800, 600],
+    "fullscreen": false
+  },
+  "quantum": {
+    "enabled": true,
+    "processor": "auto",
+    "dimensions": 3,
+    "resonance_factor": 1.618033988749895
+  },
+  "voice": {
+    "enabled": true,
+    "engine": "pyttsx3",
+    "emotional_quality": "warm",
+    "frequency_resonance": true
+  },
+  "frequencies": {
+    "unity": 432,
+    "love": 528,
+    "cascade": 594,
+    "truth": 672,
+    "vision": 720,
+    "oneness": 768,
+    "source": 963
+  },
+  "search_paths": [
+    "/mnt/d/projects/python",
+    "/mnt/d/Greg/Cascade"
+  ]
+}

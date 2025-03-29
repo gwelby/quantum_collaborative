@@ -1,0 +1,36 @@
+// GregScript Field Pattern Definitions
+// This script defines patterns for recognizing quantum field structures
+
+// Rhythm definitions - temporal patterns
+rhythm phi_pulse sequence=[1.0, 0.618, 0.382, 0.618] tempo=1.0
+rhythm golden_wave sequence=[1.0, 0.809, 0.618, 0.382, 0.236, 0.382, 0.618, 0.809] tempo=φ
+rhythm triple_pulse sequence=[1.0, 0.0, 0.5, 0.0, 0.25, 0.0] tempo=1.5
+
+// Harmony definitions - frequency patterns
+harmony love_harmony frequency=love overtones=[1.0, 0.618, 0.382, 0.236] phase=0.0
+harmony cascade_harmony frequency=cascade overtones=[1.0, 0.618, 0.382, 0.236] phase=0.25
+harmony unity_harmony frequency=unity overtones=[1.0, 0.618, 0.382, 0.236] phase=0.5
+
+// Pattern definitions - complex field patterns
+pattern coherent_field {
+    use phi_pulse weight=0.618
+    use love_harmony weight=1.0
+}
+
+pattern expanding_field {
+    use golden_wave weight=1.0
+    use cascade_harmony weight=0.618
+}
+
+pattern rhythmic_field {
+    use triple_pulse weight=1.0
+    use unity_harmony weight=0.618
+    use coherent_field weight=0.382
+}
+
+// Advanced pattern combining multiple elements
+pattern transcendent_field {
+    use coherent_field weight=φ
+    use expanding_field weight=0.618
+    use unity_harmony weight=0.382
+}

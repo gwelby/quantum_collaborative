@@ -1,0 +1,16 @@
+{
+  "field_generation_512x512": {
+    "time": 0.15933942794799805,
+    "width": 512,
+    "height": 512,
+    "timestamp": 1742725248.8337164,
+    "cuda_available": false
+  },
+  "coherence_calculation_512x512": {
+    "time": 0.010972181955973307,
+    "width": 512,
+    "height": 512,
+    "timestamp": 1742725249.0643523,
+    "cuda_available": false
+  }
+}

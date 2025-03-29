@@ -1,0 +1,59 @@
+# φFlow Quantum Field State Machine Example
+# This defines a state machine for evolving a quantum field through
+# several coherence states
+
+# State definitions
+state initial
+    frequency = love
+    coherence >= 0.0
+    compression = 1.0
+
+state harmonized
+    frequency = unity
+    coherence >= 0.7
+    compression = 1.2
+
+state expanded
+    frequency = truth
+    coherence >= 0.8
+    compression = 0.8
+
+state contracted
+    frequency = vision
+    coherence >= 0.85
+    compression = 1.5
+
+state transcendent
+    frequency = oneness
+    coherence >= 0.95
+    compression = φ^2
+
+# Transition definitions
+transition initial -> harmonized
+    when coherence >= 0.5 then
+    harmonize by φ
+    blend by 2.0
+
+transition harmonized -> expanded
+    when coherence >= 0.75 then
+    expand by 1.5
+    rotate by 45
+    amplify by 1.2
+
+transition expanded -> contracted
+    when coherence >= 0.82 then
+    contract by φ
+    center by 2.0
+    harmonize by φ^0.5
+
+transition contracted -> transcendent
+    when coherence >= 0.9 then
+    harmonize by φ^2
+    amplify by φ
+    center by φ
+
+transition transcendent -> harmonized
+    when coherence < 0.9 then
+    attenuate by 1.5
+    expand by 1.2
+    blend by φ
